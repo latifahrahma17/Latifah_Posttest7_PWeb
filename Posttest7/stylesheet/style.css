@@ -1,0 +1,262 @@
+.content,
+.auto {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.content {
+    max-width: 980px
+}
+
+.auto {
+    max-width: 1140px
+}
+
+.section,
+.code {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important
+}
+
+.mySlides {
+    padding-top: 200px;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    text-overflow: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(214, 214, 177);
+}
+
+.logo{
+    display: flex;
+    padding-right: 800px;
+}
+
+.main-container{
+    margin-top: 200px;
+    padding: 0px;
+    height: 500px;
+}
+
+.about{
+    padding: 1px 0 0 0;
+    padding: 10px 30px;
+    background-color: rgb(160, 160, 129);
+    height: 650px;
+    display: flex;
+}
+
+.about-desc h1{
+    padding: 8px 500px 0 500px;
+}
+
+.about-desc h2{
+    color: rgb(85, 56, 52);
+    font-weight: 900;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 0 5px 0;
+}
+
+.about-desc h3{
+    list-style-type: none;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(85, 56, 52);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-desc h4{
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    padding-left: 100px;
+    float: left;
+}
+
+li.contact{
+    list-style-type: none;
+    padding-bottom: 8px;
+}
+
+.contents{
+    margin: 500px;
+    height: 1000px;
+    border-top: 10px;
+    border-top-width: 5px;
+    border-top-color: rgb(216, 188, 152);
+    border-top-style: dashed;
+    border-bottom: 10px;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(216, 188, 152);
+    border-bottom-style: dashed;
+}
+
+.contents h1{
+    padding: 10px 520px 0 520px;
+}
+
+.contents h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 0 360px 20px 400px;
+}
+
+.container-item{
+    margin: 10px;
+    padding: 0 10px 30px 10px;
+    display: flex;
+}
+
+.container-item a{
+    padding: 10px;
+    text-decoration: none;
+    margin: 0 20px 0 12px;
+    border: 10px;
+    border-width: 8px;
+    border-style: outset;
+    border-color: beige;
+}
+
+.container-item b{
+    float: right;
+    color: rgb(179, 114, 92);
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.harga{
+    display: flex;
+}
+
+nav{
+    background-color: rgb(214, 214, 177);
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+.nav-link{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.nav-item a{
+    display: flex;
+    width: 100px;
+    text-decoration: none;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(114, 83, 83);
+}
+
+.nav-item b{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(114, 83, 83);
+}
+
+nav a{
+    display: flex;
+    color: rgb(160, 120, 120);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer{
+    background-color: rgb(85, 85, 68);
+    height: 50px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.dark-mode{
+    background: rgb(82, 79, 79);
+    color: white;
+}
+
+.mode{
+    padding-left: 10px;
+    font-size: 15px;
+    display: flex;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form{
+    padding: 200px 80px;
+    margin-top: 30px;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+button,.btn-regis,.btn-login,.btn-pesan,.btn-edit,.btn-hapus,.btn{
+    padding: 10px;
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(114, 83, 83);
+    background-color: rgb(214, 214, 177);
+    margin-bottom: 100px;
+}
+
+.regis,.pesan,.login{
+    padding-top: 100px;
+}
+
+.text-regis,.text-login,.text-pesan,.password-regis,.password-login{
+    width: 300px;
+    height: 30px;
+    border-color: cadetblue;
+    border-radius: 20%;
+}
+
+form label{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.reg h2,.log h2,.pes h2{
+    font-size: 28px;
+    padding: 30px;
+    background-color:beige;
+}
+
